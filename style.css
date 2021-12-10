@@ -48,7 +48,7 @@
   --color-key-equal-shadow: hsl(25, 99%, 27%);
 
   --color-text-dark: hsl(60, 10%, 19%);
-  --color-text-white: hsl(0, 0%, 100%);
+  --color-text-white: hsl(60, 10%, 19%);
   --color-text-opaque: hsla(60, 10%, 19%, 0.5);
 }
 
