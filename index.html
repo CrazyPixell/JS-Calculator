@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- js -->
+    <script src="script.js" defer></script>
+
+    <title>Calculator app</title>
+  </head>
+  <body class="theme1">
+    <div class="calculator">
+      <div class="calculator__options">
+        <p class="calculator__logo">ca<span>l</span>c</p>
+
+        <div class="calculator__theme">
+          <p class="calculator__theme-label">Theme</p>
+          <div class="switch">
+            <input name="switch" id="one" type="radio" checked />
+            <label for="one" class="switch__label">1</label>
+            <input name="switch" id="two" type="radio" />
+            <label for="two" class="switch__label">2</label>
+            <input name="switch" id="three" type="radio" />
+            <label for="three" class="switch__label">3</label>
+            <div class="switch__indicator"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__input">
+        <div data-previous class="calculator__input-previous"></div>
+        <div data-current class="calculator__input-current"></div>
+      </div>
+
+      <div class="calculator__buttons">
+        <button data-number class="calculator__btn">7</button>
+        <button data-number class="calculator__btn">8</button>
+        <button data-number class="calculator__btn">9</button>
+        <button data-delete class="calculator__btn calculator__btn--del">
+          del
+        </button>
+        <button data-number class="calculator__btn">4</button>
+        <button data-number class="calculator__btn">5</button>
+        <button data-number class="calculator__btn">6</button>
+        <button data-operation class="calculator__btn">+</button>
+        <button data-number class="calculator__btn">1</button>
+        <button data-number class="calculator__btn">2</button>
+        <button data-number class="calculator__btn">3</button>
+        <button data-operation class="calculator__btn">-</button>
+        <button data-number class="calculator__btn">.</button>
+        <button data-number class="calculator__btn">0</button>
+        <button data-operation class="calculator__btn">/</button>
+        <button data-operation class="calculator__btn">x</button>
+        <button
+          data-reset
+          class="calculator__btn calculator__btn--del calculator__btn--span2"
+        >
+          reset
+        </button>
+        <button
+          data-equal
+          class="calculator__btn calculator__btn--equal calculator__btn--span2"
+        >
+          =
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">CrazyPixell</a>.
+    </div>
+  </body>
+</html>
